@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  background-color: #2d283e;
+  color: #802bb1;
+}
+
+.custom-navbar-items {
+  color: #802bb1;
+}
+.custom-navbar-items:hover {
+  color: #a35ccc;
+}
