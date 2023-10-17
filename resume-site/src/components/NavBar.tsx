@@ -10,8 +10,8 @@ export default function NavBar() {
         <>
         <Navbar fixed="top">
             <Container>
-            <Navbar.Brand className="custom-navbar-items" href="#home">Joshua Fentress</Navbar.Brand>
-                <Nav className="ml-auto">
+            <Navbar.Brand className='custom-navbar-items' href="#home">Joshua Fentress</Navbar.Brand>
+                <Nav className='ml-auto '>
                     <Nav.Link className="custom-navbar-items" href="#about-me">About Me</Nav.Link>
                     <Nav.Link className="custom-navbar-items" href="#projects">Projects</Nav.Link>
                     <Nav.Link className="custom-navbar-items" href="#resume">Resume</Nav.Link>
