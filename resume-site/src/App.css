@@ -43,12 +43,12 @@
 
 body {
   background-color: #2d283e;
-  color: #802bb1;
+  color: #d1d7e0;
 }
 
 /* NavBar.tsx styles */
 .custom-navbar-items {
-  color: #802bb1;
+  color: #d1d7e0;
 }
 .custom-navbar-items:hover,
 .custom-navbar-items:active {
@@ -58,14 +58,14 @@ body {
 /* SocialsTab.tsx styles */
 .right-hovering-div {
   /* Positions div to right of screen*/
-  position: absolute;
+  position: fixed;
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
 
   /*background-color: #4c495d;*/
   background-color: #564f6f;
-  padding: 8px;
+  
   color: #d1d7e0;
   display: flex;
   flex-direction: column;
@@ -75,9 +75,40 @@ body {
 
 .custom-icons {
   color: #d1d7e0;
-
 }
 
 .custom-icons:hover {
   color: #a35ccc;
+}
+
+.header-name {
+  background-color: #802bb1;
+  display: inline-block;
+  /*transform: rotate(10deg); /* Adjust the degree of rotation as needed 
+  z-index: -1;
+  */
+}
+
+.header-cont {
+  min-height: 1000px;
+}
+
+/* About.tsx styles */
+.about-body {
+  text-align: justify;
+}
+
+/* Footer.tsx styles */
+.footer {
+  background-color: #564f6f;
+  height: 350px;
+  width: 100vw;
+}
+
+.footer-icon {
+  margin-right: 5px;
+}
+
+.copyright {
+  font-size:x-small;
 }
