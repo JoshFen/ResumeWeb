@@ -9,7 +9,7 @@ export default function SocialsTab() {
             <ul className='list-unstyled mb-auto'>
                 <li> <a href="https://www.linkedin.com/in/joshuafentress/" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faLinkedin}/> </a> </li>
                 <li> <a href="https://github.com/JoshFen" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faGithub}/> </a> </li>
-                <li> <a href="#email-me"> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faEnvelope}/> </a> </li>
+                <li> <a href="#contact-me"> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faEnvelope}/> </a> </li>
             </ul>   
         </div>
     )

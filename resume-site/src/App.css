@@ -1,8 +1,14 @@
-#root {
-  text-align: center;
-
+:root {
+  --background: #2d283e;
+  --text: #d1d7e0;
+  --main: #564f6f;
+  --highlight: #a35ccc;
+  --accent: #802bb1;
 }
 
+#root {
+  text-align: center;
+}
 
 @keyframes logo-spin {
   from {
@@ -28,17 +34,24 @@
 }
 
 body {
-  background-color: #2d283e;
-  color: #d1d7e0;
+  background-color: var(--background);
+  color: var(--text);
+}
+/* Styles for all modular containers */
+.cont {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
 }
 
 /* NavBar.tsx styles */
 .custom-navbar-items {
-  color: #d1d7e0;
+  color: var(--text);
 }
 .custom-navbar-items:hover,
 .custom-navbar-items:active {
-  color: #a35ccc;
+  color: var(--highlight);
 }
 
 /* SocialsTab.tsx styles */
@@ -50,9 +63,9 @@ body {
   transform: translateY(-50%);
 
   /*background-color: #4c495d;*/
-  background-color: #564f6f;
+  background-color: var(--main);
   
-  color: #d1d7e0;
+  color: var(--text);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,15 +73,16 @@ body {
 }
 
 .custom-icons {
-  color: #d1d7e0;
+  color: var(--text);
 }
 
 .custom-icons:hover {
-  color: #a35ccc;
+  color: var(--highlight);
 }
 
+/* Header.tsx styles */
 .header-name {
-  background-color: #802bb1;
+  background-color: var(--accent);
   display: inline-block;
   /*transform: rotate(10deg); /* Adjust the degree of rotation as needed 
   z-index: -1;
@@ -86,18 +100,59 @@ body {
 
 /* Contact.tsx stykes */
 .contact-cont {
-  height: 800px;
+  height: 1000px;
+}
+
+.contact-link-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--main);
+  border-radius: 1.2em;
+  height: 200px;
+  width: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.contact-link-cont:hover {
+  border: 5px solid var(--highlight);
+}
+
+.cont-link {
+  text-decoration: none;
+  color:var(--accent);
 }
 
 .contact-form {
-  width: 20%;
+  width: 30%;
+  min-width: 250px;
 }
+
+.form-item {
+  margin: 0;
+}
+
 .form-text {
+  resize: none;
+}
+
+.send-msg-butt {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.send-msg-butt:hover {
+  background-color: var(--highlight);
+  border-color: var(--highlight);
 }
 
 /* Footer.tsx styles */
 .footer {
-  background-color: #564f6f;
+  background-color: var(--main);
   height: 250px;
   width: 100%;
   text-align: center;
