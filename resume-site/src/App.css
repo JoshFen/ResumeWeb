@@ -123,7 +123,11 @@ body {
 
 .cont-link {
   text-decoration: none;
-  color:var(--accent);
+  color:var(--text);
+}
+
+.cont-link:hover {
+  color:var(--highlight)
 }
 
 .contact-form {
