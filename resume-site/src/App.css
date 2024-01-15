@@ -4,6 +4,8 @@
   --main: #564f6f;
   --highlight: #a35ccc;
   --accent: #802bb1;
+
+  --not-in-use: #1D1E20;
 }
 
 #root {
@@ -39,10 +41,13 @@ body {
 }
 /* Styles for all modular containers */
 .cont {
-  margin-top: 20px;
-  margin-bottom: 10px;
   width: 80%;
+  height: 1000px;
   margin: auto;
+}
+
+.header-text {
+  font-size: 5em;
 }
 
 /* NavBar.tsx styles */
@@ -89,20 +94,32 @@ body {
   */
 }
 
-.header-cont {
-  min-height: 1000px;
+.header-image {
+  height: 100%
 }
 
+.title-name {
+  font-size: 8em;
+}
+
+
 /* About.tsx styles */
+.about-text-cont {
+  max-width: 600px;
+}
+
 .about-body {
   text-align: justify;
 }
 
-/* Contact.tsx stykes */
-.contact-cont {
-  height: 1000px;
+.about-me-header {
 }
 
+.about-headshot {
+  min-width: 100%;
+}
+
+/* Contact.tsx stykes */
 .contact-link-cont {
   display: flex;
   flex-direction: column;
@@ -172,4 +189,34 @@ body {
 
 .copyright {
   font-size:x-small;
+}
+
+
+#container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  touch-action: none;
+  cursor: none;
+  background-color: #000; /* Set the background color for the container */
+}
+
+#image-container {
+  position: relative;
+  z-index: 1; /* Ensure the image is above the canvas */
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Place the canvas behind the image */
 }

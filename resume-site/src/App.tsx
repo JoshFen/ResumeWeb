@@ -10,6 +10,7 @@ import SocialsTab from './components/SocialsTab';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Header/>
       <SocialsTab/>
       <About/>
+      <Portfolio/>
       <Contact/>
       <Footer/>
   </div>
