@@ -1,13 +1,21 @@
 import { Container, Row, Col } from "react-bootstrap";
+import React, {useEffect} from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 
 export default function About() {
-    
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    }, []);
+
     return (
-        <div className="d-flex flex-row justify-content-xxl-evenly about-me-cont cont">
+        <div className="d-flex flex-row justify-content-xxl-evenly align-items-center about-me-cont cont">
                 <div className="image-cont">     
                     <img className="about-headshot" src="src/assets/Photo_1.png" alt="professional-headshot"/>
                 </div>
-            <div className="d-flex flex-column">
+            <div className="d-flex flex-column about-animtion" data-aos="fade-up">
             <h2 className="p-5 about-me-header head-text">about me</h2>
                     <div className="about-text-cont">
                         <p className="p-3 about-body">I am Joshua Fentress, a recent graduate from <b>Penn State University</b> with 
