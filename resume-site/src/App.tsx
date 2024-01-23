@@ -7,6 +7,8 @@ import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import SocialsTab from './components/SocialsTab';
+import DividerOne from './components/DividerOne';
+import DividerTwo from './components/DividerTwo';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -19,7 +21,9 @@ function App() {
       {/*<NavBar/>*/}
       <Header/>
       <SocialsTab/>
+      <DividerTwo/>
       <About/>
+      <DividerOne/>
       <Portfolio/>
       <Contact/>
       <Footer/>

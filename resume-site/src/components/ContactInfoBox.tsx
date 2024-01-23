@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 import { FC } from "react";
 
+
 interface ContactInfoProps {
     icon: IconDefinition;
     title: string;

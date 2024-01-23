@@ -4,6 +4,11 @@ import { Button, Form } from "react-bootstrap";
 import ContactInfoBox from "./ContactInfoBox";
 import ContactForm from "./ContactForm";
 
+import { useEffect } from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css"
+
 export default function Contact() {
 
     type contactFormData = {
@@ -12,10 +17,15 @@ export default function Contact() {
         message: string;
     }
 
+    useEffect(() => {
+        AOS.init({duration: 3000})
+    }, []);
+    
+
     const emailAddress: String = 'joshua.c.fentress@gmail.com';
 
     return (
-        <div id="contact-me" className="d-flex flex-column justify-content-center contact-cont cont">
+        <div id="contact-me" className="d-flex flex-column justify-content-center contact-cont cont" data-aos="fade-up">
             <h1 className="p-5">Contact Information</h1>
             <div className="mb-5 d-flex justify-content-center">
                 <ContactInfoBox icon={faGoogle} title="Gmail" text="joshua.c.fentress" link={`mailto:${emailAddress}`} linkText="Send An Email"/>

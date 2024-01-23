@@ -8,7 +8,7 @@ interface ProjectProps {
     linkText: string;
 }
 
-const ContactInfoBox: FC<ProjectProps> = (props) => {
+const Project: FC<ProjectProps> = (props) => {
     const {photo, title, text, link, linkText} = props;
     
     return (
@@ -18,4 +18,4 @@ const ContactInfoBox: FC<ProjectProps> = (props) => {
         </div>
     )
 }
- export default ContactInfoBox;
+ export default Project;
