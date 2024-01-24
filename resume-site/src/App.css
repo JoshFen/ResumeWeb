@@ -1,9 +1,14 @@
 :root {
-  --background: #2d283e;
+  --background: #271CA3;
+  --background2: #806BEE;
+  /* #2d283e; 
+      #564f6f
+    #a35ccc
+    */
   --text: #d1d7e0;
-  --main: #564f6f;
+  --main: #3b22de;
   --highlight: #a35ccc;
-  --accent: #802bb1;
+  --accent: #806bee;
 
   --not-in-use: #1D1E20;
 }
@@ -39,18 +44,16 @@ body {
   background-color: var(--background);
   color: var(--text);
 }
+
 /* Styles for all modular containers */
 .cont {
   width: 80%;
-  height: 100vh;
+  min-height: 110vh;
   margin: auto;
 }
 
 .header-text {
   font-size: 5em;
-}
-.cont {
-  height: 110vh;
 }
 
 .spacer {
@@ -74,6 +77,7 @@ body {
 .custom-navbar-items {
   color: var(--text);
 }
+
 .custom-navbar-items:hover,
 .custom-navbar-items:active {
   color: var(--highlight);
@@ -112,7 +116,6 @@ body {
 /********************************************************************************************/
 /* Header.tsx styles */
 .header-name {
-  background-color: var(--accent);
   display: inline-block;
   opacity: 1;
   transition: opacity 0.95s ease-in-out, transform 0.95s ease-in;
@@ -137,17 +140,12 @@ body {
   transform: translateY(-120px);
 }
 
-
 .title-name {
   font-size: 8em;
 }
 
 /********************************************************************************************/
-/* About.tsx styles */
-.about-text-cont {
-  max-width: 600px;
-}
-
+/* About.tsx styles */ 
 .about-body {
   text-align: justify;
 }
@@ -165,8 +163,8 @@ body {
   background-color: var(--main);
   border-radius: 1.2em;
   font-size:small;
-  width: 10em;
-  height: 10em;
+  width: 8em;
+  height: 8em;
 }
 
 /********************************************************************************************/
@@ -183,7 +181,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 
 .contact-link-cont:hover {
   border: 5px solid var(--highlight);
@@ -242,7 +239,6 @@ body {
 .copyright {
   font-size:x-small;
 }
-
 
 #container {
   position: absolute;

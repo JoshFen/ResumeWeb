@@ -25,6 +25,7 @@ function App() {
       <About/>
       <DividerOne/>
       <Portfolio/>
+      <DividerTwo/>
       <Contact/>
       <Footer/>
   </div>

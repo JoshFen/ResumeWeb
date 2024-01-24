@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 
 export default function Footer() {
     return (
-        <div className='footer pt-5'>
+        <div className='footer pt-5' style={{ backgroundColor: 'var(--background2)'}}>
             <ul className='list-unstyled mb-auto'>
                 <li>
                     <div> 
