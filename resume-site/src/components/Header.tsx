@@ -26,9 +26,9 @@ function Header() {
     
     return (
     <div className="d-flex flex-row container">
-        <div className="image-cont" data-aos="fade-up">
+        {/* <div className="image-cont" data-aos="fade-up">
             <img className="header-image" src="src/assets/Photo_1.png" alt="professional-headshot"/>
-        </div>
+        </div> */}
         <div className={`d-flex flex-column justify-content-center header-name ${scrollPosition >  200 ? 'fade-out' : ''}`}>
             <h1 className="rounded-2 title-name">Joshua</h1>
             <h1 className="rounded-2 title-name">Fentress</h1>

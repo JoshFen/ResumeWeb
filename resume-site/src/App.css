@@ -5,7 +5,7 @@
       #564f6f
     #a35ccc
     */
-  --text: #d1d7e0;
+  --text: white;
   --main: #3b22de;
   --highlight: #a35ccc;
   --accent: #806bee;
@@ -43,6 +43,15 @@
 body {
   background-color: var(--background);
   color: var(--text);
+}
+
+/* Styles for hovering animations */
+.hover-animations {
+  transition: transform 0.3s ease;
+}
+
+.hover-animations:hover {
+  transform: scale(1.2);
 }
 
 /* Styles for all modular containers */
@@ -173,17 +182,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  padding: 2em;
   background-color: var(--main);
   border-radius: 1.2em;
-  height: 200px;
-  width: 20%;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.contact-link-cont:hover {
-  border: 5px solid var(--highlight);
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .cont-link {
@@ -209,14 +212,16 @@ body {
 }
 
 .send-msg-butt {
-  background-color: var(--accent);
-  border-color: var(--accent);
+  background-color: var(--main);
+  border-color: var(--main);
   color: var(--text);
+  transition: transform 0.3s ease;
 }
 
 .send-msg-butt:hover {
-  background-color: var(--highlight);
-  border-color: var(--highlight);
+  background-color: var(--main);
+  border-color: var(--main);
+  transform: scale(1.2);
 }
 
 /********************************************************************************************/
@@ -234,6 +239,7 @@ body {
 
 .footer-links {
   text-decoration: none;
+  color: var(--text);
 }
 
 .copyright {

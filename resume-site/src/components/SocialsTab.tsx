@@ -21,12 +21,13 @@ export default function SocialsTab() {
     }, []);
 
     return (
-        <div className={`rounded-2 right-hovering-div ${scrollPosition < 100 ? 'fade-out' : ''}`}>
-            <ul className='list-unstyled mb-auto'>
-                <li> <a href="https://www.linkedin.com/in/joshuafentress/" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faLinkedin}/> </a> </li>
-                <li> <a href="https://github.com/JoshFen" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faGithub}/> </a> </li>
-                <li> <a href="#contact-me"> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faEnvelope}/> </a> </li>
-            </ul>   
-        </div>
+            <div className={`rounded-2 right-hovering-div ${scrollPosition < 150 ? 'fade-out' : ''} d-none d-md-block`}>
+                <ul className='list-unstyled mb-auto'>
+                    <li> <a href="https://www.linkedin.com/in/joshuafentress/" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faLinkedin}/> </a> </li>
+                    <li> <a href="https://github.com/JoshFen" target='_blank'> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faGithub}/> </a> </li>
+                    <li> <a href="#contact-me"> <FontAwesomeIcon className='fs-3 m-2 custom-icons' icon={faEnvelope}/> </a> </li>
+                </ul>   
+            </div>
+
     )
 }

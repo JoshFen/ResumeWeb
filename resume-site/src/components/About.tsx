@@ -23,13 +23,13 @@ export default function About() {
                     <h2 className="p-5 about-me-header head-text">about me</h2>
 
                     <div className="d-flex flex-row justify-content-evenly">
-                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content">
+                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
                             <FontAwesomeIcon className="fs-5 p-3" icon={faCode} /> <p className="mb-0"><b>Programming</b></p> <p>5+ Years</p>
                         </div>
-                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content">
+                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
                                 <FontAwesomeIcon className="fs-5 p-3" icon={faMountain} /> <p className="mb-0"><b>Based in</b></p> <p>Denver, CO</p>
                         </div>
-                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content">
+                        <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
                             <FontAwesomeIcon className="fs-5 p-3" icon={faBuildingColumns} /> <p className="mb-0"><b>Graduated</b></p> <p>Penn State</p>
                         </div>
                     </div>
