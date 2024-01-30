@@ -1,3 +1,5 @@
+import Photos from "./Photos";
+
 import { Container, Row, Col } from "react-bootstrap";
 import {useEffect} from "react";
 
@@ -6,7 +8,6 @@ import { faCode, faMountain, faBuildingColumns } from "@fortawesome/free-solid-s
 
 import AOS from "aos";
 import "aos/dist/aos.css"
-
 
 export default function About() {
     useEffect(() => {
@@ -20,7 +21,7 @@ export default function About() {
                     <img className="about-headshot" src="src/assets/Photo_1.png" alt="professional-headshot"/>
                 </Col>
                 <Col lg={5} md={10} sm={12} className="d-flex flex-column" data-aos="fade-up">
-                    <h2 className="p-5 about-me-header head-text">about me</h2>
+                    <h2 className="p-5 about-me-header header-text">about me</h2>
 
                     <div className="d-flex flex-row justify-content-evenly">
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
@@ -48,6 +49,10 @@ export default function About() {
                         </p>
                     </div>   
                 </Col>      
+            </Row>
+            <Row className="d-flex justify-content-center photos-row">
+                <h2>What I Enjoy</h2>
+                <Photos/>
             </Row>
         </section>
 

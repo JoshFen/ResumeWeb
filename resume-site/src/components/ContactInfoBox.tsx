@@ -20,8 +20,11 @@ const ContactInfoBox: FC<ContactInfoProps> = (props) => {
     
     return (
         <Row className="contact-link-cont hover-animations">
-            <Col md={12}>
+            <Col md={12} className="d-none d-md-block">
                 <FontAwesomeIcon  className="fs-2" icon={icon}/>
+            </Col>
+            <Col className="d-block d-sm-none">
+                <a href={link} target="_blank" className="footer-links">   <FontAwesomeIcon  className="fs-2" icon={icon}/> </a>
             </Col>
             <Col md={12} className="d-none d-md-block">
                 <h5>{title}</h5>

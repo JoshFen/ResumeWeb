@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Container } from "react-bootstrap";
 
 export default function Footer() {
+
     return (
         <div className='footer pt-5' style={{ backgroundColor: 'var(--background2)'}}>
             <ul className='list-unstyled mb-auto'>
@@ -12,14 +13,14 @@ export default function Footer() {
                     <div> 
                     <a href="https://github.com/JoshFen" target='_blank' className="footer-links"> 
                     <FontAwesomeIcon className='footer-icon' icon={faGithub}/> 
-                    <span>/JoshFen</span ></a> 
+                    <span>/JoshFen</span > </a> 
                     </div>
                 </li>
                 <li> 
                     <div>
                         <a href="https://www.linkedin.com/in/joshuafentress/" target='_blank' className="footer-links">
                         <FontAwesomeIcon className='footer-icon' icon={faLinkedin}/> 
-                        <span>/JoshuaFentress</span ></a> 
+                        <span>/JoshuaFentress</span > </a> 
                     </div>
                 </li>
                 <li>
@@ -31,7 +32,7 @@ export default function Footer() {
                 </li>
                 <li>
                     <div> 
-                    <a href="#email-me" className="footer-links"> 
+                    <a href="mailto:joshua.c.fentress@gmail.com" className="footer-links"> 
                     <FontAwesomeIcon className='footer-icon' icon={faEnvelope}/> 
                     <span>joshua.c.fentress@gmail.com</span > </a> 
                     </div>

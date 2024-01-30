@@ -25,7 +25,7 @@ function Header() {
 
     
     return (
-    <div className="d-flex flex-row container">
+    <div className="d-flex justify-content-center container">
         {/* <div className="image-cont" data-aos="fade-up">
             <img className="header-image" src="src/assets/Photo_1.png" alt="professional-headshot"/>
         </div> */}

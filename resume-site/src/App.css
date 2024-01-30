@@ -10,7 +10,7 @@
   --highlight: #a35ccc;
   --accent: #806bee;
 
-  --not-in-use: #1D1E20;
+  --not-in-use: #1D1E20;  
 }
 
 #root {
@@ -40,9 +40,16 @@
   color: #888;
 }
 
+@font-face {
+  font-family: 'norwester';
+  src: url('./fonts//norwester.otf') format("opentype");
+}
+
 body {
   background-color: var(--background);
   color: var(--text);
+  font-family: 'norwester', sans-serif;
+
 }
 
 /* Styles for hovering animations */
@@ -62,7 +69,8 @@ body {
 }
 
 .header-text {
-  font-size: 5em;
+  font-size: 6rem;
+  padding-bottom: 1em;
 }
 
 .spacer {
@@ -159,9 +167,6 @@ body {
   text-align: justify;
 }
 
-.about-me-header {
-  font-size: 7em;
-}
 
 .about-headshot {
   border-radius: 10%;
@@ -176,6 +181,40 @@ body {
   height: 8em;
 }
 
+.photos-row {
+  margin-top: 10%;
+}
+
+.photos-carousel {
+ max-width: 800px;
+}
+
+.photos {
+  max-width: 100rem;
+  max-height: 500px;
+  border-radius: 1em;
+}
+
+/********************************************************************************************/
+/* Portfolio.tsx stykes */
+.project-card {
+  background-color:#563de4;
+  color: white;
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+}
+
+.project-links {
+  color: var(--text);
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 1em;
+  background-color: #564f6f;
+}
 /********************************************************************************************/
 /* Contact.tsx stykes */
 .contact-link-cont {

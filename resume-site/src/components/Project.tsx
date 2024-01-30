@@ -4,22 +4,27 @@ interface ProjectProps {
     photo: string,
     title: string,
     text: string,
-    link: string,
-    linkText: string;
+    primaryLink: string
+    primaryLinkText: string,
+    secondaryLink: string,
+    secondaryLinkText: string;
 }
 
 const Project: FC<ProjectProps> = (props) => {
-    const {photo, title, text, link, linkText} = props;
+    const {photo, title, text, primaryLink, primaryLinkText, secondaryLink, secondaryLinkText} = props;
     
     return (
-        <div className="card" style={{width: '18rem;'}}>
-            <img className="card-img-top" src={photo} alt="Card image cap"></img>
+        <div className="card project-card" style={{width: '18rem;'}}>
+            <img className="card-img-top rounded-bottom" src={photo} alt="Card image cap"></img>
             <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-            <p className="card-text">{text}</p>
-            <a href="#" className="card-link">Card link</a>
-            <a href="#" className="card-link">Another link</a>
+                <h5 className="card-title fs-2">{title}</h5>
+                <p className="card-text fs-5">{text}</p>
+                {primaryLink !== "" && (
+                    <a href={primaryLink} target="_blank" className="card-link project-links">{primaryLinkText}</a>
+                )}
+                {secondaryLink !== "" && (
+                    <a href={secondaryLink} target="_blank" className="card-link project-links">{secondaryLinkText}</a>
+                )}
             </div>
       </div>
     )
