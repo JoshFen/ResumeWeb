@@ -7,7 +7,7 @@
     */
   --text: white;
   --main: #3b22de;
-  --highlight: #a35ccc;
+  --highlight: rgb(252, 255, 65);
   --accent: #806bee;
 
   --not-in-use: #1D1E20;  
@@ -122,11 +122,11 @@ body {
   transition: opacity 0.95s ease-in-out, transform 0.95s ease-in-out;
 }
 
-.custom-icons {
+.hover-text{
   color: var(--text);
 }
 
-.custom-icons:hover {
+.hover-text:hover {
   color: var(--highlight);
 }
 
@@ -211,9 +211,13 @@ body {
 .project-links {
   color: var(--text);
   text-decoration: none;
-  padding: 1em;
+  padding: 1em 2em;
   border-radius: 1em;
-  background-color: #564f6f;
+  background-color: var(--background2);
+}
+.project-links:hover {
+  background-color: transparent;
+  border: 2px solid var(--background2);
 }
 /********************************************************************************************/
 /* Contact.tsx stykes */

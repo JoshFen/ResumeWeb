@@ -33,7 +33,7 @@ const ContactInfoBox: FC<ContactInfoProps> = (props) => {
                 <p>{text}</p>
             </Col>        
             <Col md={12} className="d-none d-md-block">
-                <a href={link} className="cont-link" target="_blank" rel="noopener noreferrer">{linkText}</a>
+                <a href={link} className="hover-text cont-link" target="_blank" rel="noopener noreferrer">{linkText}</a>
             </Col>    
         </Row>
     )
