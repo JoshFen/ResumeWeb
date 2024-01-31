@@ -28,7 +28,7 @@ export default function Contact() {
         <section style={{ backgroundColor: 'var(--background2)'}}>
             <div id="contact-me" className="d-flex flex-column justify-content-center contact-cont cont" data-aos="fade-up">
                 <h1 className="header-text">Contact Me</h1>
-                <div className="mb-5 d-flex justify-content-center">
+                <div className="mb-5 d-flex flex-row justify-content-center">
                     <ContactInfoBox icon={faGoogle} title="Gmail" text="joshua.c.fentress" link={`mailto:${emailAddress}`} linkText="Send An Email"/>
                     <ContactInfoBox icon={faWhatsapp} title="WhatsApp" text="+1 (267) 980-9281" link="https://wa.me/12679809281" linkText="Send A Message"/>
                     <ContactInfoBox icon={faFacebookMessenger} title="Messenger" text="JoshFen97" link="https://m.me/JoshFen97" linkText="Send A Message"/>

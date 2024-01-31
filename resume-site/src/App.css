@@ -52,6 +52,10 @@ body {
 
 }
 
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 /* Styles for hovering animations */
 .hover-animations {
   transition: transform 0.3s ease;
@@ -64,13 +68,12 @@ body {
 /* Styles for all modular containers */
 .cont {
   width: 80%;
-  min-height: 110vh;
   margin: auto;
 }
 
 .header-text {
-  font-size: 6rem;
-  padding-bottom: 1em;
+  font-size: 4rem;
+  padding: 1em;
 }
 
 .spacer {
@@ -163,10 +166,10 @@ body {
 
 /********************************************************************************************/
 /* About.tsx styles */ 
+
 .about-body {
   text-align: justify;
 }
-
 
 .about-headshot {
   border-radius: 10%;
@@ -179,21 +182,30 @@ body {
   font-size:small;
   width: 8em;
   height: 8em;
+  margin: .2em;
+}
+
+/********************************************************************************************/
+/* Personal.tsx styles  */
+.more-about-header {
+  margin-top: 15rem;
+  margin-bottom: 6rem;
+}
+.photos-div {
+  border-radius: 1.2em;
+  background-color: var(--background);
+  padding: 2em;
+  max-width: 45rem;
 }
 
 .photos-row {
   margin-top: 10%;
 }
 
-.photos-carousel {
- max-width: 800px;
+.photos {
+  border-radius: 1.2rem;
 }
 
-.photos {
-  max-width: 100rem;
-  max-height: 500px;
-  border-radius: 1em;
-}
 
 /********************************************************************************************/
 /* Portfolio.tsx stykes */
@@ -228,8 +240,8 @@ body {
   padding: 2em;
   background-color: var(--main);
   border-radius: 1.2em;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .cont-link {

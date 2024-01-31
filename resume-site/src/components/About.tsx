@@ -1,4 +1,4 @@
-import Photos from "./Photos";
+import Photos from "./Personal";
 
 import { Container, Row, Col } from "react-bootstrap";
 import {useEffect} from "react";
@@ -16,16 +16,16 @@ export default function About() {
 
     return (
         <section style={{ backgroundColor: 'var(--background2)'}}>
-            <Row className="d-flex flex-row justify-content-evenly align-items-center about-me-cont cont" data-aos="fade-right">
+            <Row className="d-flex flex-row justify-content-evenly align-items-center cont" data-aos="fade-right">
                 <Col lg={5} md={10} sm={12} className="pt-5 image-cont">     
-                    <img className="about-headshot" src="src/assets/Photo_1.png" alt="professional-headshot"/>
+                    <img className="img-fluid about-headshot" src="src/assets/Photo_1.png" alt="professional-headshot"/>
                 </Col>
-                <Col lg={5} md={10} sm={12} className="d-flex flex-column" data-aos="fade-up">
-                    <h2 className="p-5 about-me-header header-text">about me</h2>
+                <Col lg={5} md={10} sm={12} className="d-flex flex-column justify-content-center" data-aos="fade-up">
+                    <h2 className="p-5 header-text">about me</h2>
 
                     <div className="d-flex flex-row justify-content-evenly">
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
-                            <FontAwesomeIcon className="fs-5 p-3" icon={faCode} /> <p className="mb-0"><b>Programming</b></p> <p>5+ Years</p>
+                            <FontAwesomeIcon className="fs-5 p-3" icon={faCode} /> <p className="mb-0"><b>Programming</b></p> <p>6+ Years</p>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
                                 <FontAwesomeIcon className="fs-5 p-3" icon={faMountain} /> <p className="mb-0"><b>Based in</b></p> <p>Denver, CO</p>
@@ -49,10 +49,6 @@ export default function About() {
                         </p>
                     </div>   
                 </Col>      
-            </Row>
-            <Row className="d-flex justify-content-center photos-row">
-                <h2>What I Enjoy</h2>
-                <Photos/>
             </Row>
         </section>
 

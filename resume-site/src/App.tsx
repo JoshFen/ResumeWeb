@@ -13,16 +13,18 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Photos from './components/Personal';
 
 function App() {
 
   return (
   <div>
       {/*<NavBar/>*/}
-      <Header/>
+
       <SocialsTab/>
       <DividerTwo/>
       <About/>
+      <Photos/>
       <DividerOne/>
       <Portfolio/>
       <DividerTwo/>
