@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://{user-name}.github.io/{repo-name}",
+  "homepage": "https://JoshFen.github.io/Resume-Site",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
