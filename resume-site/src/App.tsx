@@ -10,20 +10,22 @@ import SocialsTab from './components/SocialsTab';
 import DividerOne from './components/DividerOne';
 import DividerTwo from './components/DividerTwo';
 import About from './components/About';
+import TechSkills from './components/TechSkills';
+import Photos from './components/Personal';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-import Photos from './components/Personal';
 
 function App() {
 
   return (
   <div>
-      {/*<NavBar/>*/}
-
+      {/* <NavBar/> */}
+      <Header/>
       <SocialsTab/>
       <DividerTwo/>
       <About/>
+      <TechSkills/>
       <Photos/>
       <DividerOne/>
       <Portfolio/>

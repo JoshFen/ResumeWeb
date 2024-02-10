@@ -1,41 +1,32 @@
-import { Container } from "react-bootstrap"
-import { useEffect, useState } from "react";
+import { Button } from "react-bootstrap"
 
 import AOS from "aos";
 import "aos/dist/aos.css"
 
-function Header() {
-    const [scrollPosition, setScrollPosition] = useState(0);
+export default function Header() {
+    const fileUrl = "src/assets/resume/Joshua_C_Fentress_RESUME.pdf"
+    const fileName = "JoshuaCFentress.pdf"
 
-    useEffect(() => {
-        const handleScroll = () => {
-            setScrollPosition(window.scrollY);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-    useEffect(() => {
-        AOS.init({duration: 2000})
-    }, []);
+    const downloadResume = () => {
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = fileName;
+        link.click();
+    };
 
     
     return (
-    <div className="d-flex justify-content-center container">
-        {/* <div className="image-cont" data-aos="fade-up">
-            <img className="header-image" src="src/assets/Photo_1.png" alt="professional-headshot"/>
-        </div> */}
-        <div className={`d-flex flex-column justify-content-center header-name ${scrollPosition >  200 ? 'fade-out' : ''}`}>
+    <div id="resume" className="d-flex flex-column justify-content-center header-cont">
+        <div className="d-flex flex-column justify-content-center align-items-center header-name">
+            <img className="rounded-circle header-img" src="src/assets/photos/headshot_1.png" alt="professional-headshot" />
             <h1 className="rounded-2 title-name">Joshua</h1>
             <h1 className="rounded-2 title-name">Fentress</h1>
-            <h5 id="header-desc">Fullstack Engineer</h5>
+            <h4 id="header-desc">Fullstack Engineer</h4>
+        </div>
+        <div>
+            <Button variant="primary" className="mt-3 download-res-butt" onClick={downloadResume}>Resume/CV</Button>
         </div>
     </div>
     )
 }
 
-export default Header

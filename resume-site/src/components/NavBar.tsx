@@ -7,18 +7,18 @@ export default function NavBar() {
 
 
     return (
-        <>
-        <Navbar fixed="top">
-            <Container>
-            <Navbar.Brand className='custom-navbar-items' href="#home">Joshua Fentress</Navbar.Brand>
-                <Nav className='ml-auto '>
-                    <Nav.Link className="custom-navbar-items" href="#about-me">About Me</Nav.Link>
-                    <Nav.Link className="custom-navbar-items" href="#projects">Projects</Nav.Link>
-                    <Nav.Link className="custom-navbar-items" href="#resume">Resume</Nav.Link>
-                    <Nav.Link className="custom-navbar-items" href="#contact-me">Contact</Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
-        </>
+        <section>
+            <Navbar fixed="top" style={{backgroundColor:  'var(--background2)'}}>
+                <Container>
+                <Navbar.Brand className='custom-navbar-items' href="#home"></Navbar.Brand>
+                    <Nav className='ml-auto '>
+                        <Nav.Link className="custom-navbar-items" href="#resume">Download CV</Nav.Link>
+                        <Nav.Link className="custom-navbar-items" href="#about">About</Nav.Link>
+                        <Nav.Link className="custom-navbar-items" href="#portfolio">Portfolio</Nav.Link>
+                        <Nav.Link className="custom-navbar-items" href="#contact-me">Contact Me</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
+        </section>
     );
 }

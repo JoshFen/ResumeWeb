@@ -15,23 +15,23 @@ export default function About() {
     }, []);
 
     return (
-        <section style={{ backgroundColor: 'var(--background2)'}}>
+        <section id="about" style={{ backgroundColor: 'var(--background2)'}}>
             <Row className="d-flex flex-row justify-content-evenly align-items-center cont" data-aos="fade-right">
                 <Col lg={5} md={10} sm={12} className="pt-5 image-cont">     
-                    <img className="img-fluid about-headshot" src="src/assets/Photo_1.png" alt="professional-headshot"/>
+                    <img className="img-fluid about-headshot" src="src/assets/photos/Photo_1.png" alt="professional-headshot"/>
                 </Col>
                 <Col lg={5} md={10} sm={12} className="d-flex flex-column justify-content-center" data-aos="fade-up">
                     <h2 className="p-5 header-text">about me</h2>
 
                     <div className="d-flex flex-row justify-content-evenly">
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
-                            <FontAwesomeIcon className="fs-5 p-3" icon={faCode} /> <p className="mb-0"><b>Programming</b></p> <p>6+ Years</p>
+                            <FontAwesomeIcon className="fs-4 p-3" icon={faCode} /> <p className="mb-0 fs-6"><b>Programming</b></p> <p>6+ Years</p>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
-                                <FontAwesomeIcon className="fs-5 p-3" icon={faMountain} /> <p className="mb-0"><b>Based in</b></p> <p>Denver, CO</p>
+                                <FontAwesomeIcon className="fs-4 p-3" icon={faMountain} /> <p className="mb-0 fs-6"><b>Based in</b></p> <p>Denver, CO</p>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
-                            <FontAwesomeIcon className="fs-5 p-3" icon={faBuildingColumns} /> <p className="mb-0"><b>Graduated</b></p> <p>Penn State</p>
+                            <FontAwesomeIcon className="fs-4 p-3" icon={faBuildingColumns} /> <p className="mb-0 fs-6"><b>Graduated</b></p> <p>Penn State</p>
                         </div>
                     </div>
 

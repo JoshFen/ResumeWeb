@@ -6,10 +6,10 @@
     #a35ccc
     */
   --text: white;
-  --main: #3b22de;
-  --highlight: rgb(252, 255, 65);
+  --main: #2404f3;
+  --highlight: rgb(8, 8, 8);
   --accent: #806bee;
-
+  
   --not-in-use: #1D1E20;  
 }
 
@@ -49,11 +49,36 @@ body {
   background-color: var(--background);
   color: var(--text);
   font-family: 'norwester', sans-serif;
+}
 
+/* Target WebKit browsers */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8053a5; /* Set the gradient color of the scrollbar handle */
+  border-radius: 12px; /* Set the border radius of the handle */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #78729c; /* Set the background color of the scrollbar track to transparent */
+}
+
+/* Buttons (arrows) */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#8053a5; /* Set the gradient color of the scrollbar handle on hover */
 }
 
 p {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Styles for hovering animations */
@@ -74,6 +99,12 @@ p {
 .header-text {
   font-size: 4rem;
   padding: 1em;
+}
+
+@media (max-width: 767px) {
+  .header-text{
+    font-size: 3rem; /* Adjust the font size as needed for smaller screens */
+  }
 }
 
 .spacer {
@@ -98,9 +129,12 @@ p {
   color: var(--text);
 }
 
-.custom-navbar-items:hover,
-.custom-navbar-items:active {
+.custom-navbar-items:hover {
   color: var(--highlight);
+}
+
+.custom-navbar-items:visited {
+  color: var(--text);
 }
 
 /********************************************************************************************/
@@ -135,6 +169,17 @@ p {
 
 /********************************************************************************************/
 /* Header.tsx styles */
+
+.header-cont {
+  margin: 5em;
+  padding: 1em;
+}
+.header-img {
+  max-width: 20rem;
+  align-items: center;
+  border: var(--background2) .2em solid;
+}
+
 .header-name {
   display: inline-block;
   opacity: 1;
@@ -146,23 +191,37 @@ p {
   transform: translateX(120px);
 }
 
-.header-image {
-  height: 100vh; /* 100% of the viewport height */
-  width: auto;   /* Automatically adjust the width to maintain aspect ratio */
-  max-width: 100%; /* Ensure the image doesn't exceed the full width of the viewport */
-  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
-
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in;
-}
-
 .fade-up {
   opacity: 0;
   transform: translateY(-120px);
 }
 
 .title-name {
-  font-size: 8em;
+  font-size: 6rem;
+  margin-bottom: 0;
 }
+
+@media (max-width: 767px) {
+  .title-name {
+    font-size: 4rem; /* Adjust the font size as needed for smaller screens */
+  }
+}
+
+.download-res-butt {
+  background-color: #6149e7;
+  border-color: #6149e7;
+  color: var(--text);
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.download-res-butt:hover {
+  background-color: #6149e7;
+  border-color: #6149e7;
+  transform: scale(1.2);
+}
+
 
 /********************************************************************************************/
 /* About.tsx styles */ 
@@ -177,19 +236,42 @@ p {
 }
 
 .highlights-content {
-  background-color: var(--main);
+  background-color: var(--background);
   border-radius: 1.2em;
   font-size:small;
-  width: 8em;
-  height: 8em;
+  width: 9em;
+  height: 9em;
   margin: .2em;
+}
+
+/********************************************************************************************/
+/* TechSkills.tsx styles */ 
+.techskills-cont {
+  padding-top: 20rem;
+}
+
+.tech-sec {
+  background-color: var(--background);
+  margin: 1rem;
+  padding: 2rem;
+  width: 45%;
+  border-radius: 3rem;
+}
+
+.tech-skill {
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.tech-icon {
+  width: 2.3rem;
 }
 
 /********************************************************************************************/
 /* Personal.tsx styles  */
 .more-about-header {
   margin-top: 15rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 .photos-div {
   border-radius: 1.2em;
@@ -206,6 +288,42 @@ p {
   border-radius: 1.2rem;
 }
 
+.hobbies-cont {
+  border-radius: 1.2em;
+  background-color: var(--background);
+  padding: 2rem;
+  margin: .5rem;
+  width: 25rem;
+}
+
+.hobbies-text {
+  font-size:2.6rem;
+  margin-bottom: 0;
+}
+
+.hobbies-icon{
+  font-size: 3rem;
+}
+
+/* Animate snowboarder on hover */
+.hoverable-icon:hover {
+  animation: moveUpDown 1s infinite alternate; /* Set up the animation */
+}
+
+@keyframes moveUpDown {
+  to {
+    transform: translateY(-10px) rotate(-15deg); /* Adjust the distance the icon moves */
+  }
+}
+
+.icon-png {
+  width: 1.2em;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
 
 /********************************************************************************************/
 /* Portfolio.tsx stykes */
@@ -238,11 +356,12 @@ p {
   flex-direction: column;
   justify-content: center;
   padding: 2em;
-  background-color: var(--main);
+  background-color: var(--background);
   border-radius: 1.2em;
   margin-left: 12px;
   margin-right: 12px;
 }
+
 
 .cont-link {
   text-decoration: none;
@@ -267,8 +386,8 @@ p {
 }
 
 .send-msg-butt {
-  background-color: var(--main);
-  border-color: var(--main);
+  background-color: var(--background);
+  border-color: var(--background);
   color: var(--text);
   transition: transform 0.3s ease;
 }
