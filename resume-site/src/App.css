@@ -7,7 +7,7 @@
     */
   --text: white;
   --main: #2404f3;
-  --highlight: rgb(8, 8, 8);
+  --highlight: #806BEE;
   --accent: #806bee;
   
   --not-in-use: #1D1E20;  
@@ -77,7 +77,7 @@ body {
   background:#8053a5; /* Set the gradient color of the scrollbar handle on hover */
 }
 
-p {
+p, h4 {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -125,6 +125,7 @@ p {
 }
 /********************************************************************************************/
 /* NavBar.tsx styles */
+
 .custom-navbar-items {
   color: var(--text);
 }
@@ -139,6 +140,7 @@ p {
 
 /********************************************************************************************/
 /* SocialsTab.tsx styles */
+
 .right-hovering-div {
   /* Positions div to right of screen*/
   position: fixed;
@@ -230,6 +232,13 @@ p {
   text-align: justify;
 }
 
+.headshot-cont {
+  background-image: linear-gradient(to bottom, var(--background), transparent);
+  padding: 4rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
 .about-headshot {
   border-radius: 10%;
   min-width: 100%;
@@ -246,6 +255,7 @@ p {
 
 /********************************************************************************************/
 /* TechSkills.tsx styles */ 
+
 .techskills-cont {
   padding-top: 20rem;
 }
@@ -254,13 +264,13 @@ p {
   background-color: var(--background);
   margin: 1rem;
   padding: 2rem;
-  width: 45%;
+  width: 45rem;
   border-radius: 3rem;
 }
 
 .tech-skill {
   padding: .5rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .tech-icon {
@@ -270,7 +280,7 @@ p {
 /********************************************************************************************/
 /* Personal.tsx styles  */
 .more-about-header {
-  margin-top: 15rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
 .photos-div {

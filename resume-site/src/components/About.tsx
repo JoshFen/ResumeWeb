@@ -17,8 +17,10 @@ export default function About() {
     return (
         <section id="about" style={{ backgroundColor: 'var(--background2)'}}>
             <Row className="d-flex flex-row justify-content-evenly align-items-center cont" data-aos="fade-right">
-                <Col lg={5} md={10} sm={12} className="pt-5 image-cont">     
-                    <img className="img-fluid about-headshot" src="src/assets/photos/Photo_1.png" alt="professional-headshot"/>
+                <Col lg={5} md={10} sm={12} className="pt-5 image-cont">
+                    <div className="headshot-cont"> 
+                        <img className="img-fluid about-headshot" src="src/assets/photos/Photo_1.png" alt="professional-headshot"/>
+                    </div>     
                 </Col>
                 <Col lg={5} md={10} sm={12} className="d-flex flex-column justify-content-center" data-aos="fade-up">
                     <h2 className="p-5 header-text">about me</h2>
