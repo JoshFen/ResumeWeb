@@ -10,12 +10,6 @@ import "aos/dist/aos.css"
 
 export default function Contact() {
 
-    type contactFormData = {
-        name: string;
-        email: string;
-        message: string;
-    }
-
     useEffect(() => {
         AOS.init({duration: 3000})
     }, []);

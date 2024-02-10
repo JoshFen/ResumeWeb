@@ -1,3 +1,4 @@
+import { Row, Col } from "react-bootstrap";
 import {useEffect} from "react";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

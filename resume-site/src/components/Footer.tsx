@@ -2,7 +2,6 @@ import { faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Container } from "react-bootstrap";
 
 export default function Footer() {
 
