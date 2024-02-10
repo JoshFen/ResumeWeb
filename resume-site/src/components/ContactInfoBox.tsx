@@ -1,8 +1,6 @@
 import { FC } from "react";
 import { Row, Col } from "react-bootstrap";
 
-
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IconDefinition } from "@fortawesome/free-brands-svg-icons";
 

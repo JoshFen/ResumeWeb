@@ -1,8 +1,5 @@
 import { Button } from "react-bootstrap"
 
-import AOS from "aos";
-import "aos/dist/aos.css"
-
 export default function Header() {
     const fileUrl = "src/assets/resume/Joshua_C_Fentress_RESUME.pdf"
     const fileName = "JoshuaCFentress.pdf"
