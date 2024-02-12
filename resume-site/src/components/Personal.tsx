@@ -41,12 +41,12 @@ export default function Personal() {
                             <img className="img-fluid  photos" src="./Resume-Site/src/assets/photos/Grad.jpeg" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="src/assets/photos/Mellys.png" alt="Card image cap"/>
+                            <img className="img-fluid  photos" src="./Resume-Site/Mellys.png" alt="Card image cap"/>
                         </Carousel.Item>                            <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="src/assets/photos/Duo.png" alt="Card image cap"/>
+                            <img className="img-fluid  photos" src="./Resume-Site/assets/photos/Duo.png" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="src/assets/photos/Tree.png" alt="Card image cap"/>
+                            <img className="img-fluid  photos" src="./resume-site/assets/photos/Tree.png" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="src/assets/photos/Climbing2.png" alt="Card image cap"/>
