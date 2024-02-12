@@ -23,13 +23,13 @@ export default function Personal() {
                     <h2 className="p-2">Life's Highlights</h2>
                     <Carousel className="photos-carousel">
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid photos" src="/photos/Yosemite1.jpeg" alt="Yosemite backpacking trip"/>
+                            <img className="img-fluid photos" src="./photos/Yosemite1.jpeg" alt="Yosemite backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/photos/Trio.jpeg" alt="Two best friends"/>
+                            <img className="img-fluid  photos" src="./Resume-Site/photos/Trio.jpeg" alt="Two best friends"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
+                            <img className="img-fluid  photos" src="./resume-site/photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="/photos/Climbing1.png" alt="Rock climbing"/>
