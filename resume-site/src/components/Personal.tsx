@@ -58,20 +58,20 @@ export default function Personal() {
                 <div className="d-flex flex-column align-items-center">
                 <h2 className="p-2">some hobbies of mine...</h2>
                     <div className="hobbies-cont hobbies-left d-flex justify-content-evenly align-items-center">
-                        <h5 className="d-inline-block hobbies-text">backpacking</h5>
+                        <h4 className="d-inline-block hobbies-text">backpacking</h4>
                         <FontAwesomeIcon icon={faCampground} className="hobbies-icon"/>
                     </div>
                     <div className="hobbies-cont hobbies-right d-flex justify-content-evenly align-items-center">
                         <FontAwesomeIcon icon={faPersonSnowboarding} className="hobbies-icon hoverable-icon"/>
-                        <h5 className="d-inline-block hobbies-text">snowboarding</h5>
+                        <h4 className="d-inline-block hobbies-text">snowboarding</h4>
                     </div>
                     <div className="hobbies-cont hobbies-left d-flex justify-content-evenly align-items-center">
-                        <h5 className="d-inline-block hobbies-text">rock climbing</h5>
+                        <h4 className="d-inline-block hobbies-text">rock climbing</h4>
                         <img src="./icons/climbing.png" className="hobbies-icon icon-png"/>
                     </div>
                     <div className="hobbies-cont hobbies-right d-flex justify-content-evenly align-items-center">
                         <FontAwesomeIcon icon={faGamepad} className="hobbies-icon"/>
-                        <h5 className="d-inline-block hobbies-text">video games</h5>
+                        <h4 className="d-inline-block hobbies-text">video games</h4>
                     </div>
                 </div>
             </Col>

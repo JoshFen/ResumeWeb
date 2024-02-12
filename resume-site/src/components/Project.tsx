@@ -17,7 +17,7 @@ const Project: FC<ProjectProps> = (props) => {
         <div className="card project-card" style={{width: '18rem;'}}>
             <img className="card-img-top rounded-bottom" src={photo} alt="Card image cap"></img>
             <div className="card-body">
-                <h5 className="card-title fs-2">{title}</h5>
+                <h2 className="card-title fs-2">{title}</h2>
                 <p className="card-text fs-5">{text}</p>
                 <div className="mt-4">
                 {primaryLink !== "" && (

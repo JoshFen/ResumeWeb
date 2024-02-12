@@ -48,7 +48,11 @@
 body {
   background-color: var(--background);
   color: var(--text);
-  font-family: 'norwester', sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "norwester";
 }
 
 /* Target WebKit browsers */
@@ -75,10 +79,6 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background:#8053a5; /* Set the gradient color of the scrollbar handle on hover */
-}
-
-p, h4 {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Styles for hovering animations */
@@ -257,7 +257,7 @@ p, h4 {
 /* TechSkills.tsx styles */ 
 
 .techskills-cont {
-  padding-top: 20rem;
+  padding-top: 10rem;
 }
 
 .tech-sec {
@@ -370,6 +370,7 @@ section {
   border-radius: 1.2em;
   margin-left: 12px;
   margin-right: 12px;
+  width: 15rem;
 }
 
 
@@ -400,6 +401,7 @@ section {
   border-color: var(--background);
   color: var(--text);
   transition: transform 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .send-msg-butt:hover {
@@ -415,6 +417,7 @@ section {
   height: 250px;
   width: 100%;
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer-icon {
