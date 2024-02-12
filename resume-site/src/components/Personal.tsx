@@ -24,7 +24,7 @@ export default function Personal() {
                     <h2 className="p-2">Life's Highlights</h2>
                     <Carousel className="photos-carousel">
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid photos" src="src/assets/photos/Yosemite1.jpeg" alt="Card image cap"/>
+                            <img className="img-fluid photos" src="./assets/photos/Yosemite1.jpeg" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="src/assets/photos/Trio.jpeg" alt="Card image cap"/>

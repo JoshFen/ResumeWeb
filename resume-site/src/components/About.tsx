@@ -17,7 +17,7 @@ export default function About() {
             <Row className="d-flex flex-row justify-content-evenly align-items-center cont" data-aos="fade-right">
                 <Col lg={5} md={10} sm={12} className="pt-5 image-cont">
                     <div className="headshot-cont"> 
-                        <img className="img-fluid about-headshot" src="src/assets/photos/Photo_1.png" alt="professional-headshot"/>
+                        <img className="img-fluid about-headshot" src="./src/assets/photos/Photo_1.png" alt="professional-headshot"/>
                     </div>     
                 </Col>
                 <Col lg={5} md={10} sm={12} className="d-flex flex-column justify-content-center" data-aos="fade-up">
