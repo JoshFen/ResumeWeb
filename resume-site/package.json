@@ -1,9 +1,9 @@
 {
+  "homepage": "https://joshfen.github.io/Resume-Site",
   "name": "resume-site",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joshfen.github.io/Resume-Site/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

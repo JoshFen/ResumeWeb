@@ -5,7 +5,6 @@ import { Carousel} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCampground, faPersonSnowboarding, faGamepad } from "@fortawesome/free-solid-svg-icons";
 
-
 import AOS from "aos";
 import "aos/dist/aos.css"
 
