@@ -23,34 +23,34 @@ export default function Personal() {
                     <h2 className="p-2">Life's Highlights</h2>
                     <Carousel className="photos-carousel">
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid photos" src="./photos/Yosemite1.jpeg" alt="Yosemite backpacking trip"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Yosemite1.jpeg" alt="Yosemite backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Trio.jpeg" alt="Two best friends"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Trio.jpeg" alt="Two best friends"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
+                            <img className="p-1 img-fluid photos" src="./photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Climbing1.png" alt="Rock climbing"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Climbing1.png" alt="Rock climbing"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Snow.png" alt="Snowboarding"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Snow.png" alt="Snowboarding"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Grad.JPEG" alt="College graduation"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Grad.JPEG" alt="College graduation"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Mellys.png" alt="Three friends"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Mellys.png" alt="Three friends"/>
                         </Carousel.Item>                            
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Duo.png" alt="Me and girlfriend"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Duo.png" alt="Me and girlfriend"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Tree.png" alt="Friends in Sequoia"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Tree.png" alt="Friends in Sequoia"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Climbing2.png" alt="Rock climbing"/>
+                            <img className="p-1 img-fluid photos" src="./photos/Climbing2.png" alt="Rock climbing"/>
                         </Carousel.Item>
                     </Carousel>
                 </Col>
