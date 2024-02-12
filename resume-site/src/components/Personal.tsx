@@ -39,7 +39,7 @@ export default function Personal() {
                             <img className="img-fluid  photos" src="./resume-site/src/assets/photos/Snow.png" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="src/assets/photos/Grad.jpeg" alt="Card image cap"/>
+                            <img className="img-fluid  photos" src="./Resume-Site/src/assets/photos/Grad.jpeg" alt="Card image cap"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="src/assets/photos/Mellys.png" alt="Card image cap"/>
