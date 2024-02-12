@@ -26,30 +26,30 @@ export default function Personal() {
                             <img className="img-fluid photos" src="./photos/Yosemite1.jpeg" alt="Yosemite backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./Resume-Site/photos/Trio.jpeg" alt="Two best friends"/>
+                            <img className="img-fluid  photos" src="./photos/Trio.jpeg" alt="Two best friends"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./resume-site/photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
+                            <img className="img-fluid  photos" src="./photos/GrandCanyon.jpeg" alt="Grandcanyon backpacking trip"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./Resume-site/Climbing1.png" alt="Rock climbing"/>
+                            <img className="img-fluid  photos" src="./photos/Climbing1.png" alt="Rock climbing"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./resume-site/Snow.png" alt="Snowboarding"/>
+                            <img className="img-fluid  photos" src="./photos/Snow.png" alt="Snowboarding"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/resume-site/photos/Grad.jpeg" alt="College graduation"/>
+                            <img className="img-fluid  photos" src="./photos/Grad.jpeg" alt="College graduation"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/Resume-Site/photos/Mellys.png" alt="Three friends"/>
+                            <img className="img-fluid  photos" src="./photos/Mellys.png" alt="Three friends"/>
                         </Carousel.Item>                            <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/photos/Duo.png" alt="Me and girlfriend"/>
+                            <img className="img-fluid  photos" src="./photos/Duo.png" alt="Me and girlfriend"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/photos/Tree.png" alt="Friends in Sequoia"/>
+                            <img className="img-fluid  photos" src="./photos/Tree.png" alt="Friends in Sequoia"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="/photos/Climbing2.png" alt="Rock climbing"/>
+                            <img className="img-fluid  photos" src="./photos/Climbing2.png" alt="Rock climbing"/>
                         </Carousel.Item>
                     </Carousel>
                 </Col>
@@ -66,7 +66,7 @@ export default function Personal() {
                     </div>
                     <div className="hobbies-cont hobbies-left d-flex justify-content-evenly align-items-center">
                         <h4 className="d-inline-block hobbies-text">rock climbing</h4>
-                        <img src="/icons/climbing.png" className="hobbies-icon icon-png"/>
+                        <img src="./icons/climbing.png" className="hobbies-icon icon-png"/>
                     </div>
                     <div className="hobbies-cont hobbies-right d-flex justify-content-evenly align-items-center">
                         <FontAwesomeIcon icon={faGamepad} className="hobbies-icon"/>

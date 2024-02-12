@@ -32,16 +32,16 @@ export default function Portfolio() {
             <h2 className="header-text">portfolio</h2>
             <Row className="projects-list">
                 <Col xs={12} md={6} lg={6} data-aos="fade-up" className="p-4">
-                    <Project photo="/project-photos/Capstone.png" title="Project Grover" text="AI-Powered Search and Rescue Innovation in Collaboration with Lockheed Martin" primaryLink={links[0]} primaryLinkText="Presentation" secondaryLink={links[1]} secondaryLinkText=""/>
+                    <Project photo="./project-photos/Capstone.png" title="Project Grover" text="AI-Powered Search and Rescue Innovation in Collaboration with Lockheed Martin" primaryLink={links[0]} primaryLinkText="Presentation" secondaryLink={links[1]} secondaryLinkText=""/>
                 </Col>
                 <Col xs={12} md={6} lg={6} data-aos="fade-up" className="p-4">
-                    <Project photo="/project-photos/Off-piste.png" title="Off-piste" text="Dynamic Django Web App with OSM Integration for Ski Resort Navigation" primaryLink={links[2]} primaryLinkText="" secondaryLink={links[3]} secondaryLinkText="Git"/>
+                    <Project photo="./project-photos/Off-piste.png" title="Off-piste" text="Dynamic Django Web App with OSM Integration for Ski Resort Navigation" primaryLink={links[2]} primaryLinkText="" secondaryLink={links[3]} secondaryLinkText="Git"/>
                 </Col>
                 <Col xs={12} md={6} lg={6} data-aos="fade-up" className="p-4">
-                    <Project photo="/project-photos/ASL.png" title="ASL Reader" text="Real-time ASL Hand Sign Recognition Web App with TensorFlow and MediaPipe" primaryLink={links[4]} primaryLinkText="" secondaryLink={links[5]} secondaryLinkText="Git"/>
+                    <Project photo="./project-photos/ASL.png" title="ASL Reader" text="Real-time ASL Hand Sign Recognition Web App with TensorFlow and MediaPipe" primaryLink={links[4]} primaryLinkText="" secondaryLink={links[5]} secondaryLinkText="Git"/>
                 </Col>
                 <Col xs={12} md={6} lg={6} data-aos="fade-up" className="p-4">
-                    <Project photo="/project-photos/LionsGate.png" title="Roar-mitory" text="Dorm Room Assignment Application for Penn State's LionsGate Faculty" primaryLink={links[6]} primaryLinkText="" secondaryLink={links[7]} secondaryLinkText="Git"/>
+                    <Project photo="./project-photos/LionsGate.png" title="Roar-mitory" text="Dorm Room Assignment Application for Penn State's LionsGate Faculty" primaryLink={links[6]} primaryLinkText="" secondaryLink={links[7]} secondaryLinkText="Git"/>
                 </Col>
             </Row>
 

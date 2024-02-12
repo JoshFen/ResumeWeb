@@ -27,7 +27,7 @@ export default function TechSkills() {
                                 <h4 className="tech-skill">Java</h4>
                                 <FontAwesomeIcon className="fs-1" icon={faJs} />
                                 <h4 className="tech-skill">JavaScript</h4>
-                                <img src="/icons/CSharp.png" className="tech-icon"/>
+                                <img src="./icons/CSharp.png" className="tech-icon"/>
                                 <h4 className="tech-skill">C#</h4>
                                 <FontAwesomeIcon className="fs-1" icon={faHtml5} />
                                 <h4 className="tech-skill">HTML / CSS</h4>
@@ -35,9 +35,9 @@ export default function TechSkills() {
                             <Col md={6} sm={4} className="inner-col">
                                 <FontAwesomeIcon className="fs-1" icon={faPython} />  
                                 <h4 className="tech-skill">Python</h4>
-                                <img src="/icons/TypeScript.png" className="tech-icon"/>
+                                <img src="./icons/TypeScript.png" className="tech-icon"/>
                                 <h4 className="tech-skill">TypeScript</h4>
-                                <img src="/icons/C++.png" className="tech-icon"/>
+                                <img src="./icons/C++.png" className="tech-icon"/>
                                 <h4 className="tech-skill">C++</h4>
                                 <FontAwesomeIcon className="fs-1" icon={faDatabase} />
                                 <h4 className="tech-skill">SQL</h4>
@@ -52,7 +52,7 @@ export default function TechSkills() {
                                 <h4 className="tech-skill">Github</h4>
                                 <FontAwesomeIcon className="fs-1" icon={faReact} />  
                                 <h4 className="tech-skill">ReactJS</h4>
-                                <img src="/icons/Django.png" className="tech-icon"/>
+                                <img src="./icons/Django.png" className="tech-icon"/>
                                 <h4 className="tech-skill">Django</h4>
                                 <FontAwesomeIcon className="fs-1" icon={faBootstrap} />
                                 <h4 className="tech-skill">Bootstrap</h4>  
@@ -60,9 +60,9 @@ export default function TechSkills() {
                             <Col md={6} sm={6} className="inner-col"> 
                                 <FontAwesomeIcon className="fs-1" icon={faNodeJs} /> 
                                 <h4 className="tech-skill">NodeJS</h4>
-                                <img src="/icons/Express.png" className="tech-icon"/>
+                                <img src="./icons/Express.png" className="tech-icon"/>
                                 <h4 className="tech-skill">ExpressJS</h4>
-                                <img src="/icons/Agile.png" className="tech-icon"/>
+                                <img src="./icons/Agile.png" className="tech-icon"/>
                                 <h4 className="tech-skill">Agile/Scrum</h4>
                                 <FontAwesomeIcon className="fs-1 p-1" icon={faWindows} />
                                 <FontAwesomeIcon className="fs-1 p-1" icon={faApple} />  
