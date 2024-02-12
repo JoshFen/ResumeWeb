@@ -38,11 +38,12 @@ export default function Personal() {
                             <img className="img-fluid  photos" src="./photos/Snow.png" alt="Snowboarding"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
-                            <img className="img-fluid  photos" src="./photos/Grad.jpeg" alt="College graduation"/>
+                            <img className="img-fluid  photos" src="./photos/Grad.JPEG" alt="College graduation"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="./photos/Mellys.png" alt="Three friends"/>
-                        </Carousel.Item>                            <Carousel.Item interval={7000}>
+                        </Carousel.Item>                            
+                        <Carousel.Item interval={7000}>
                             <img className="img-fluid  photos" src="./photos/Duo.png" alt="Me and girlfriend"/>
                         </Carousel.Item>
                         <Carousel.Item interval={7000}>
