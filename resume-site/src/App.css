@@ -355,10 +355,12 @@ section {
   border-radius: 1em;
   background-color: var(--background2);
 }
+
 .project-links:hover {
   background-color: transparent;
   border: 2px solid var(--background2);
 }
+
 /********************************************************************************************/
 /* Contact.tsx stykes */
 .contact-link-cont {
@@ -404,8 +406,8 @@ section {
 }
 
 .send-msg-butt:hover {
-  background-color: var(--main);
-  border-color: var(--main);
+  background-color: var(--background);
+  border-color: var(--background);
   transform: scale(1.2);
 }
 

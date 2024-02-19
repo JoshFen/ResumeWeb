@@ -21,10 +21,10 @@ const Project: FC<ProjectProps> = (props) => {
                 <p className="card-text fs-5">{text}</p>
                 <div className="mt-4">
                 {primaryLink !== "" && (
-                    <a href={primaryLink} target="_blank" className="card-link hover-text project-links">{primaryLinkText}</a>
+                    <a href={primaryLink} target="_blank" className="card-link project-links">{primaryLinkText}</a>
                 )}
                 {secondaryLink !== "" && (
-                    <a href={secondaryLink} target="_blank" className="card-link hover-text project-links">{secondaryLinkText}</a>
+                    <a href={secondaryLink} target="_blank" className="card-link project-links">{secondaryLinkText}</a>
                 )}
                 </div>
             </div>
