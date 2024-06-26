@@ -28,7 +28,7 @@ export default function About() {
                             <FontAwesomeIcon className="fs-4 p-3" icon={faCode} /> <p className="mb-0 fs-6"><b>Programming</b></p> <p>6+ Years</p>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
-                                <FontAwesomeIcon className="fs-4 p-3" icon={faMountain} /> <p className="mb-0 fs-6"><b>Based in</b></p> <p>Denver, CO</p>
+                                <FontAwesomeIcon className="fs-4 p-3" icon={faMountain} /> <p className="mb-0 fs-6"><b>Based in</b></p> <p>Lakewood, CO</p>
                         </div>
                         <div className="d-flex flex-column justify-content-center align-items-center highlights-content hover-animations">
                             <FontAwesomeIcon className="fs-4 p-3" icon={faBuildingColumns} /> <p className="mb-0 fs-6"><b>Graduated</b></p> <p>Penn State</p>
