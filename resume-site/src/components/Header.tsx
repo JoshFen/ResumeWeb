@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap"
 
 export default function Header() {
     const fileUrl = "./resume/Joshua_Fentress_Resume.pdf"
-    const fileName = "JoshuaCFentress.pdf"
+    const fileName = "Joshua_Fentress_Resume.pdf"
 
     const downloadResume = () => {
         const link = document.createElement('a');
