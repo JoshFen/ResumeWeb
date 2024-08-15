@@ -14,7 +14,7 @@ const Project: FC<ProjectProps> = (props) => {
     const {photo, title, text, primaryLink, primaryLinkText, secondaryLink, secondaryLinkText} = props;
     
     return (
-        <div className="card project-card" style={{width: '18rem;'}}>
+        <div className="card project-card" style={{width: '18rem'}}>
             <img className="card-img-top rounded-bottom" src={photo} alt="Card image cap"></img>
             <div className="card-body">
                 <h2 className="card-title fs-2">{title}</h2>
