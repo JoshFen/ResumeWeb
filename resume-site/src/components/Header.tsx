@@ -15,7 +15,7 @@ export default function Header() {
     return (
     <div id="resume" className="d-flex flex-column justify-content-center header-cont">
         <div className="d-flex flex-column justify-content-center align-items-center header-name">
-            <img className="rounded-circle header-img" src="./photos/headshot_1.png" alt="professional-headshot" />
+            <img className="rounded-circle header-img" src="./photos/headshot_smokies.png" alt="professional-headshot" />
             <h1 className="rounded-2 title-name">Joshua</h1>
             <h1 className="rounded-2 title-name">Fentress</h1>
             <h4 id="header-desc">Fullstack Engineer</h4>
